@@ -25,14 +25,14 @@
 注意！！s-bus的电平和uart串口电平相反，一般加下面这个反相器可同时完成反相和电平转换
 ：
 
-![1.jpg](https://github.com/nicekwell/sbus-decoder/raw/img/1.jpg)
+![1.jpg](https://github.com/nicekwell/sbus-decoder/raw/master/img/1.jpg)
 
 ## 2、串口配置
 
 s-bus的uart采用：100k波特率，8位数据位，偶校验，2位停止位，无流控。
 stm32cubemx里配置如下：
 
-![2.png](https://github.com/nicekwell/sbus-decoder/raw/img/2.png)
+![2.png](https://github.com/nicekwell/sbus-decoder/raw/master/img/2.png)
 
 ## 解码库的使用
 
